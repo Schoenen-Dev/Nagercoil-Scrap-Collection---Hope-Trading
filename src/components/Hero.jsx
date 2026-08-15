@@ -6,21 +6,21 @@ import { Link } from "react-router-dom";
 
 const slides = [
   {
-    image: "/images/services/doorstep-scrap-collection.avif",
+    image: "/images/services/doorstep-scrap-collection.webp",
     alt: "Scrap metal buying and selling at Hope Trading",
     kicker: "HOPE TRADING",
     title: "All Kinds of Scrap Buying & Selling",
     text: "Reliable scrap buying, selling and collection services for homes, offices, industries and organizations.",
   },
   {
-    image: "/images/services/Government Account Scrap.avif",
+    image: "/images/services/Government-Account-Scrap.avif",
     alt: "Doorstep scrap collection service",
     kicker: "DOORSTEP COLLECTION",
     title: "We Collect Scrap From Your Doorstep",
     text: "Convenient scrap collection from homes, offices, businesses and industrial locations.",
   },
   {
-    image: "/images/services/Industrial Scrap.avif",
+    image: "/images/services/Industrial-Scrap.avif",
     alt: "Industrial scrap buying and collection",
     kicker: "INDUSTRIAL SCRAP",
     title: "Reliable Scrap Solutions for Industries",

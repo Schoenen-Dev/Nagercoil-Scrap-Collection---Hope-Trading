@@ -5,7 +5,7 @@ export const services = [
     slug: "doorstep-scrap-collection",
     icon: "truck",
     tone: "emerald",
-    image: "/images/services/doorstep-scrap-collection.avif",
+    image: "/images/services/doorstep-scrap-collection.webp",
     alt: "Doorstep scrap collection service",
     title: "Doorstep Scrap Collection",
     summary:
@@ -45,7 +45,7 @@ export const services = [
     slug: "industrial-scrap",
     icon: "factory",
     tone: "graphite",
-    image: "/images/services/Industrial Scrap.avif",
+    image: "/images/services/Industrial-Scrap.avif",
     alt: "Industrial scrap and machinery",
     title: "Industrial Scrap",
     summary:
@@ -65,7 +65,7 @@ export const services = [
     slug: "government-account-scrap",
     icon: "shield",
     tone: "steel",
-    image: "/images/services/Government Account Scrap.avif",
+    image: "/images/services/Government-Account-Scrap.avif",
     alt: "Government account scrap handling",
     title: "Government Account Scrap",
     summary: "Scrap buying and handling services for government account materials.",

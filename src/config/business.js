@@ -23,8 +23,8 @@ export const business = {
 
   // Used for canonical URLs, JSON-LD and Open Graph. Replace before launch.
   siteUrl: "https://www.example.com",
-  logo: "/favicon.svg",
-  socialImage: "/og-image.jpg",
+  logo: "/images/Hope Trading Logo.webp",
+  socialImage: "/images/og-image.webp",
 
   // Leave empty until the client confirms real service areas — do not invent.
   serviceAreas: [],

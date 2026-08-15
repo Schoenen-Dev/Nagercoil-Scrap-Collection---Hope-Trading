@@ -8,7 +8,7 @@ export default function AboutSection() {
       <div className="container about-section__grid">
         <div className="about-section__image">
           <ArtTile 
-            image="/images/services/Industrial Scrap.avif"
+            image="/images/services/Industrial-Scrap.avif"
             tone="emerald" 
             size="about" 
             label="Industrial and metal scrap collection at Hope Trading" />
