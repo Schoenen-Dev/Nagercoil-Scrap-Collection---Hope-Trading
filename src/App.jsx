@@ -9,6 +9,7 @@ import About from "./pages/About.jsx";
 import Services from "./pages/Services.jsx";
 import ScrapMaterials from "./pages/ScrapMaterials.jsx";
 import Contact from "./pages/Contact.jsx";
+import FAQ from "./pages/FAQ.jsx";
 
 function ScrollManager() {
   const { pathname, hash } = useLocation();
@@ -40,6 +41,7 @@ export default function App() {
           <Route path="/services" element={<Services />} />
           <Route path="/scrap-materials" element={<ScrapMaterials />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/faq" element={<FAQ />} />
         </Routes>
       </main>
       <Footer />

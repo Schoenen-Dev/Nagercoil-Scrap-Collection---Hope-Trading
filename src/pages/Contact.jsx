@@ -19,8 +19,8 @@ export default function Contact() {
   return (
     <>
       <SEO
-        title="Contact Hope Trading | Scrap Buying & Collection Services"
-        description="Contact Hope Trading for scrap buying, selling and collection services. Call or WhatsApp us for a scrap enquiry."
+        title="Contact Hope Traders | Scrap Buying & Collection Services"
+        description="Contact Hope Traders for scrap buying, selling and collection services. Call or WhatsApp us for a scrap enquiry."
         path="/contact"
         jsonLd={jsonLd}
       />
@@ -28,7 +28,7 @@ export default function Contact() {
       <section className="page-hero">
         <div className="container">
           <span className="breadcrumbs"><Link to="/">Home</Link> / Contact Us</span>
-          <h1>Contact Hope Trading</h1>
+          <h1>Contact Hope Traders</h1>
           <p>Call, WhatsApp, or send an enquiry below to schedule a scrap collection.</p>
         </div>
       </section>
@@ -84,7 +84,7 @@ export default function Contact() {
               <div className="map-frame" role="img" aria-label="Map placeholder — business location to be added">
                 {business.mapEmbedSrc ? (
                   <iframe
-                    title="Hope Trading location"
+                    title="Hope Traders location"
                     src={business.mapEmbedSrc}
                     width="100%"
                     height="100%"
@@ -94,7 +94,7 @@ export default function Contact() {
                   />
                 ) : (
                   <span>
-                    Map will appear here once Hope Trading's exact business
+                    Map will appear here once Hope Traders' exact business
                     location is confirmed.
                   </span>
                 )}

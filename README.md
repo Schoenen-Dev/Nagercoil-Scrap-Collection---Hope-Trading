@@ -1,6 +1,6 @@
-# Hope Trading — Website
+# Hope Traders — Website
 
-A React (Vite) business website for Hope Trading — scrap buying, selling and
+A React (Vite) business website for Hope Traders — scrap buying, selling and
 doorstep collection services.
 
 ## Getting started
@@ -28,7 +28,7 @@ elsewhere in the codebase hardcodes contact info — edit this one file:
 - `siteUrl` — the real production domain (used for canonical URLs, Open
   Graph tags and JSON-LD)
 - `socialImage` — path to a real 1200×630 social-sharing image
-- `serviceAreas` — left empty on purpose; only add real cities Hope Trading
+- `serviceAreas` — left empty on purpose; only add real cities Hope Traders
   serves, then extend the local-SEO copy in `Services.jsx` / `Home.jsx`
   accordingly
 - `mapEmbedSrc` — a real Google Maps embed URL once the business location is

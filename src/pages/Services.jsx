@@ -10,7 +10,7 @@ export default function Services() {
   return (
     <>
       <SEO
-        title="Scrap Buying & Collection Services | Hope Trading"
+        title="Scrap Buying & Collection Services | Hope Traders"
         description="Explore scrap buying and collection services including doorstep, office, industrial, government account and tender scrap services."
         path="/services"
       />
@@ -20,7 +20,7 @@ export default function Services() {
           <span className="breadcrumbs"><Link to="/">Home</Link> / Services</span>
           <h1>Scrap Buying &amp; Collection Services</h1>
           <p>
-            As a dedicated scrap buyer and dealer, Hope Trading offers six focused
+            As a dedicated scrap buyer and dealer, Hope Traders offers six focused
             scrap collection services covering homes, offices, industry and
             institutional accounts.
           </p>
@@ -75,7 +75,7 @@ export default function Services() {
         <div className="container">
           <CTA
             heading="Need a Scrap Buying Service?"
-            text="Whether it's doorstep collection, office scrap or a tender enquiry, get in touch with Hope Trading."
+            text="Whether it's doorstep collection, office scrap or a tender enquiry, get in touch with Hope Traders."
           />
         </div>
       </section>

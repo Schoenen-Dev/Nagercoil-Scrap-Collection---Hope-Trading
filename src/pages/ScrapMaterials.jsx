@@ -19,7 +19,7 @@ export default function ScrapMaterials() {
           <h1>Scrap Materials We Buy</h1>
           <p>
             From metal scrap to e-waste, paper and vehicles — browse the categories
-            Hope Trading buys and get a quote on WhatsApp.
+            Hope Traders buys and get a quote on WhatsApp.
           </p>
         </div>
       </section>
@@ -36,7 +36,7 @@ export default function ScrapMaterials() {
         <div className="container">
           <CTA
             heading="Have Scrap Materials to Sell?"
-            text="Tell us what you have and Hope Trading will schedule a collection and quote."
+            text="Tell us what you have and Hope Traders will schedule a collection and quote."
           />
         </div>
       </section>

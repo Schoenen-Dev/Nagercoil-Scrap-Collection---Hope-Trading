@@ -15,15 +15,15 @@ export default function About() {
   return (
     <>
       <SEO
-        title="About Hope Trading | Scrap Buying & Selling"
-        description="Learn about Hope Trading, a scrap buying and selling business providing doorstep collection, industrial scrap and e-waste services."
+        title="About Hope Traders | Scrap Buying & Selling"
+        description="Learn about Hope Traders, a scrap buying and selling business providing doorstep collection, industrial scrap and e-waste services."
         path="/about"
       />
 
       <section className="page-hero">
         <div className="container">
           <span className="breadcrumbs"><Link to="/">Home</Link> / About Us</span>
-          <h1>About Hope Trading</h1>
+          <h1>About Hope Traders</h1>
           <p>A scrap buying and selling business built on reliable service and convenient collection.</p>
         </div>
       </section>
@@ -35,7 +35,7 @@ export default function About() {
               <span className="eyebrow">Who We Are</span>
               <h2>A Dedicated Scrap Buying &amp; Selling Business</h2>
               <p>
-                Hope Trading buys and sells all kinds of scrap, working with
+                Hope Traders buys and sells all kinds of scrap, working with
                 households, offices, industrial units and organizations that
                 need a reliable way to dispose of and monetize scrap
                 materials. Our focus is straightforward: fair pricing,
@@ -52,7 +52,7 @@ export default function About() {
               <ArtTile
     image="/images/materials/e-waste.webp"
     size="about"
-    label="Hope Trading scrap buying and collection"
+    label="Hope Traders scrap buying and collection"
   />
             </div>
           </div>
@@ -128,7 +128,7 @@ export default function About() {
         <div className="container">
           <div className="section-head section-head--center">
             <span className="eyebrow">Why Customers Choose Us</span>
-            <h2>What Sets Hope Trading Apart</h2>
+            <h2>What Sets Hope Traders Apart</h2>
           </div>
           <div className="grid grid--4">
             {whyCustomers.map(({ icon: Icon, title, text }) => (
@@ -146,7 +146,7 @@ export default function About() {
         <div className="container">
           <CTA
             heading="Contact Us for Scrap Collection"
-            text="Get in touch with Hope Trading to schedule a scrap collection or ask about our services."
+            text="Get in touch with Hope Traders to schedule a scrap collection or ask about our services."
           />
         </div>
       </section>

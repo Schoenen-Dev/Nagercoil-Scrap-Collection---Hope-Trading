@@ -11,14 +11,14 @@ export default function AboutSection() {
             image="/images/services/Industrial-Scrap.avif"
             tone="emerald" 
             size="about" 
-            label="Industrial and metal scrap collection at Hope Trading" />
+            label="Industrial and metal scrap collection at Hope Traders" />
         </div>
 
         <div className="about-section__content">
-          <span className="eyebrow">About Hope Trading</span>
+          <span className="eyebrow">About Hope Traders</span>
           <h2>Reliable Scrap Buying &amp; Collection Services</h2>
           <p>
-            Hope Trading is a scrap buying and selling business built around
+            Hope Traders is a scrap buying and selling business built around
             convenience and fair dealing. We buy and collect scrap directly from
             homes, offices and industrial sites — covering metal scrap, e-waste,
             office scrap, industrial scrap and tender scrap.

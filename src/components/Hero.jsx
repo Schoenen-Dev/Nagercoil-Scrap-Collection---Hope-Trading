@@ -6,22 +6,22 @@ import { Link } from "react-router-dom";
 
 const slides = [
   {
+    image: "/images/services/Government-Account-Scrap.avif",
+    alt: "Doorstep scrap collection service in Nagercoil",
+    kicker: "DOORSTEP SCRAP COLLECTION",
+    title: "Trusted Scrap Dealers in Nagercoil",
+    text: "We offer reliable doorstep scrap collection from homes, offices, businesses, and industrial locations across Nagercoil.",
+  },
+  {
     image: "/images/services/doorstep-scrap-collection.webp",
-    alt: "Scrap metal buying and selling at Hope Trading",
-    kicker: "HOPE TRADING",
+    alt: "Scrap collection and recycling materials at Hope Traders",
+    kicker: "HOPE TRADERS",
     title: "All Kinds of Scrap Buying & Selling",
     text: "Reliable scrap buying, selling and collection services for homes, offices, industries and organizations.",
   },
   {
-    image: "/images/services/Government-Account-Scrap.avif",
-    alt: "Doorstep scrap collection service",
-    kicker: "DOORSTEP COLLECTION",
-    title: "We Collect Scrap From Your Doorstep",
-    text: "Convenient scrap collection from homes, offices, businesses and industrial locations.",
-  },
-  {
     image: "/images/services/Industrial-Scrap.avif",
-    alt: "Industrial scrap buying and collection",
+    alt: "Industrial scrap materials collected by Hope Traders",
     kicker: "INDUSTRIAL SCRAP",
     title: "Reliable Scrap Solutions for Industries",
     text: "We buy and collect metal scrap, machinery, e-waste and other industrial scrap materials.",

@@ -11,7 +11,7 @@ export const services = [
     summary:
       "Convenient scrap collection from homes, businesses and other locations, scheduled at a time that works for you.",
     paragraphs: [
-      "Hope Trading picks up scrap directly from your doorstep, so you don't have to arrange transport or make a trip to a scrap yard. This is our most requested service among households and small businesses looking to clear out old metal, appliances and other scrap materials.",
+      "Hope Traders picks up scrap directly from your doorstep, so you don't have to arrange transport or make a trip to a scrap yard. This is our most requested service among households and small businesses looking to clear out old metal, appliances and other scrap materials.",
       "Once you share the type and approximate quantity of scrap, our team will confirm a convenient collection slot, weigh the material on-site and settle payment on the spot.",
     ],
     points: [
@@ -31,7 +31,7 @@ export const services = [
     summary:
       "Collection and buying of office equipment, paper, electronics and other office scrap.",
     paragraphs: [
-      "Offices accumulate scrap steadily — old furniture, retired computers, printers, cabling and stacks of waste paper. Hope Trading offers a straightforward way to clear this out while recovering value from materials that would otherwise sit in storage.",
+      "Offices accumulate scrap steadily — old furniture, retired computers, printers, cabling and stacks of waste paper. Hope Traders offers a straightforward way to clear this out while recovering value from materials that would otherwise sit in storage.",
       "We work with facility and admin teams to plan collection around office hours, minimising disruption to daily operations.",
     ],
     points: [
@@ -51,7 +51,7 @@ export const services = [
     summary:
       "Industrial metal, machinery, equipment and production-related scrap, handled at scale.",
     paragraphs: [
-      "Manufacturing units, workshops and production facilities generate scrap as a regular part of operations — offcuts, retired machinery, damaged components and process waste. Hope Trading buys and collects industrial scrap in the quantities these facilities produce.",
+      "Manufacturing units, workshops and production facilities generate scrap as a regular part of operations — offcuts, retired machinery, damaged components and process waste. Hope Traders buys and collects industrial scrap in the quantities these facilities produce.",
       "We coordinate with plant and procurement teams on collection frequency, load sizes and documentation required for industrial accounts.",
     ],
     points: [
@@ -70,7 +70,7 @@ export const services = [
     title: "Government Account Scrap",
     summary: "Scrap buying and handling services for government account materials.",
     paragraphs: [
-      "Government departments and public sector offices periodically dispose of decommissioned equipment, vehicles and materials through structured scrap disposal processes. Hope Trading is equipped to handle scrap buying for government accounts, working within the documentation and process requirements these accounts involve.",
+      "Government departments and public sector offices periodically dispose of decommissioned equipment, vehicles and materials through structured scrap disposal processes. Hope Traders is equipped to handle scrap buying for government accounts, working within the documentation and process requirements these accounts involve.",
       "Our team can discuss the specific requirements of a government account and confirm how we can support the disposal process.",
     ],
     points: [
@@ -89,7 +89,7 @@ export const services = [
     title: "Scrap Tender",
     summary: "Professional scrap buying services through tender opportunities.",
     paragraphs: [
-      "Many organisations dispose of large scrap lots through a tender process. Hope Trading participates in scrap tenders professionally, submitting quotes and following the process required by the issuing organisation.",
+      "Many organisations dispose of large scrap lots through a tender process. Hope Traders participates in scrap tenders professionally, submitting quotes and following the process required by the issuing organisation.",
       "If your organisation is planning to issue a scrap tender, get in touch and our team will guide you through the information we typically need to submit a quote.",
     ],
     points: [
@@ -108,7 +108,7 @@ export const services = [
     title: "Bank Scrap Tender",
     summary: "Services for bank-related scrap tender materials.",
     paragraphs: [
-      "Banks and financial institutions periodically dispose of scrap through tenders — decommissioned IT equipment, furniture, security fixtures and branch fit-out materials. Hope Trading handles bank scrap tenders with the professionalism and documentation these accounts require.",
+      "Banks and financial institutions periodically dispose of scrap through tenders — decommissioned IT equipment, furniture, security fixtures and branch fit-out materials. Hope Traders handles bank scrap tenders with the professionalism and documentation these accounts require.",
       "We're happy to share our process and past experience when a bank or financial institution is preparing a scrap tender.",
     ],
     points: [

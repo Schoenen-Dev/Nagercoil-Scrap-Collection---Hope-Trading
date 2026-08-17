@@ -15,7 +15,7 @@ export default function Footer() {
 
         <div className="footer-grid">
           <div className="footer-brand">
-            <img src="/images/Hope Trading Logo.webp" alt="Hope Trading - Scrap Buying & Selling" className="footer-logo"
+            <img src="/images/hope-traders-logo.webp" alt="Hope Traders - Scrap Buying & Selling" className="footer-logo"
   />
             <h4>{business.name}</h4>
             <p>{business.tagline}</p>

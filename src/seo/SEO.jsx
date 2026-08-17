@@ -5,7 +5,7 @@ import { business } from "../config/business.js";
  * Drop-in SEO tag manager for every page.
  *
  * <SEO
- *   title="Scrap Buying & Selling Services | Hope Trading"
+ *   title="Scrap Buying & Selling Services | Hope Traders"
  *   description="..."
  *   path="/services"
  * />

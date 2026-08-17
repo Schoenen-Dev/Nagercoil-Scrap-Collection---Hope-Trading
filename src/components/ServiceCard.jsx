@@ -36,13 +36,14 @@ export default function ServiceCard({ service }) {
           <Link className="link-arrow" to={`/services#${service.slug}`}>
             Learn More →
           </Link>
-          <button
+          {/* <button
             type="button"
             className="btn btn--sm btn--whatsapp"
+            style={{ backgroundColor: '#16A34A', color: '#FFFFFF' }}
             onClick={() => openWhatsApp(buildServiceMessage(service.title))}
           >
             Enquire Now
-          </button>
+          </button> */}
         </div>
       </div>
     </article>

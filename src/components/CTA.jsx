@@ -4,7 +4,7 @@ import { PhoneIcon, WhatsAppIcon } from "./Icons.jsx";
 
 export default function CTA({
   heading = "Have Scrap to Sell?",
-  text = "Contact Hope Trading for reliable scrap buying, selling and collection services.",
+  text = "Contact Hope Traders for reliable scrap buying, selling and collection services.",
 }) {
   return (
     <div className="cta-band">

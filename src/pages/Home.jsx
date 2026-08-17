@@ -40,8 +40,8 @@ export default function Home() {
   return (
     <>
       <SEO
-        title="Scrap Buying & Selling Services | Hope Trading"
-        description="Hope Trading provides scrap buying, selling and doorstep scrap collection services for office, industrial, metal, e-waste and other scrap materials."
+        title="Scrap Buying & Selling Services | Hope Traders"
+        description="Hope Traders provides scrap buying, selling and doorstep scrap collection services for office, industrial, metal, e-waste and other scrap materials."
         path="/"
         jsonLd={jsonLd}
       />
@@ -90,8 +90,8 @@ export default function Home() {
       <section className="section" style={{ background: "var(--surface)" }}>
         <div className="container">
           <div className="section-head section-head--center">
-            <span className="eyebrow">Why Hope Trading</span>
-            <h2>Why Choose Hope Trading?</h2>
+            <span className="eyebrow">Why Hope Traders</span>
+            <h2>Why Choose Hope Traders?</h2>
           </div>
           <div className="grid grid--3">
             {whyChooseUs.map(({ icon: Icon, title, text }) => (

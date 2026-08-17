@@ -10,6 +10,7 @@ const NAV_ITEMS = [
   { to: "/services", label: "Services" },
   { to: "/scrap-materials", label: "Scrap Materials" },
   { to: "/contact", label: "Contact Us" },
+  { to: "/faq", label: "FAQ" },
 ];
 
 export default function Header() {
@@ -32,8 +33,8 @@ export default function Header() {
         <NavLink to="/" className="brand" aria-label={`${business.name} — home`}>
           <span className="brand__mark" aria-hidden="true">
             <img
-              src="/images/Hope Trading Logo.webp"
-              alt="Hope Trading"
+              src="/images/hope-traders-logo.webp"
+              alt="Hope Traders"
               className="brandmark__logo"/>
           </span>
           <span className="brand__text">

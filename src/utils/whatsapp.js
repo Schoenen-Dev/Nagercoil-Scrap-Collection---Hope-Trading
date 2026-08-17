@@ -12,7 +12,7 @@ export function openWhatsApp(message) {
 
 /** Standard enquiry message for a specific service card. */
 export function buildServiceMessage(serviceName) {
-  return `Hello Hope Trading,
+  return `Hello Hope Traders,
 
 I am interested in your ${serviceName} service.
 
@@ -23,7 +23,7 @@ Thank you.`;
 
 /** Standard enquiry message for a specific scrap material. */
 export function buildMaterialMessage(materialName) {
-  return `Hello Hope Trading,
+  return `Hello Hope Traders,
 
 I have ${materialName} to sell and would like a quote.
 
@@ -34,7 +34,7 @@ Thank you.`;
 
 /** General "just chat with us" message used by the header / floating button. */
 export function buildGeneralMessage() {
-  return `Hello Hope Trading,
+  return `Hello Hope Traders,
 
 I would like to enquire about scrap buying and collection services.
 
@@ -45,7 +45,7 @@ Thank you.`;
 
 /** Full enquiry-form message, built from the contact form fields. */
 export function buildFormMessage({ name, phone, email, scrapType, location, message }) {
-  return `Hello Hope Trading,
+  return `Hello Hope Traders,
 
 I would like to enquire about scrap collection.
 

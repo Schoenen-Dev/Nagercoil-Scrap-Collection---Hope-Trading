@@ -1,5 +1,5 @@
 /* ============================================================================
-   HOPE TRADING — DESIGN TOKENS (v2 "Trade & Reclaim" theme)
+   HOPE TRADERS — DESIGN TOKENS (v2 "Trade & Reclaim" theme)
    Emerald (value recovered) + gold (trade) on a bright, airy surface,
    with a deep green-black used only for contrast bands — not the whole page.
    ============================================================================ */
@@ -574,7 +574,7 @@ margin: 0 auto 32px;
 .service-card__body { padding: 22px 22px 24px; display: flex; flex-direction: column; flex: 1; }
 .service-card__body h3 { font-size: 1.15rem; margin-bottom: 8px; }
 .service-card__body h3 a:hover { color: var(--emerald-dark); }
-.service-card__body p { font-size: 0.95rem; flex: 1; margin-bottom: 18px; }
+.service-card__body p { font-size: 0.95rem; flex: 1; margin-bottom: 18px;color:#1F2937; }
 
 .service-card__footer {
   display: flex;
@@ -976,7 +976,7 @@ margin: 0 auto 32px;
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: var(--shadow-lg);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
   transition: transform 0.15s ease, background 0.15s ease;
 }
 .fab-whatsapp:hover { background: var(--whatsapp-dark); transform: scale(1.07); }
@@ -1129,5 +1129,114 @@ margin: 0 auto 32px;
     color: #111 !important;
     visibility: visible !important;
     opacity: 1 !important;
+  }
+}
+
+/* ==========================================================================
+   FAQ
+   ========================================================================== */
+
+/* ==========================================================================
+   FAQ
+   ========================================================================== */
+
+.faq-section {
+  background: var(--surface, #ffffff);
+}
+
+.faq-list {
+  max-width: 900px;
+  margin: 40px auto 0;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.faq-item {
+  border: 1px solid rgba(20, 40, 35, 0.12);
+  border-radius: 14px;
+  background: #fff;
+  overflow: hidden;
+  transition: box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.faq-item:hover,
+.faq-item--open {
+  border-color: rgba(20, 40, 35, 0.22);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
+}
+
+.faq-question {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  padding: 22px 24px;
+  border: 0;
+  background: transparent;
+  color: inherit;
+  text-align: left;
+  cursor: pointer;
+  font: inherit;
+}
+
+.faq-question span:first-child {
+  font-size: 1.05rem;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.faq-icon {
+  flex: 0 0 auto;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: #0b8150;
+  color: #fff;
+  font-size: 1.35rem;
+  line-height: 1;
+}
+
+.faq-answer {
+  padding: 0 24px 22px;
+}
+
+.faq-answer p {
+  margin: 0 0 14px;
+  color: #5c6864;
+  line-height: 1.75;
+}
+
+.faq-answer a {
+  display: inline-block;
+  color: #087d4d;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.faq-answer a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 640px) {
+  .faq-list {
+    margin-top: 28px;
+  }
+
+  .faq-question {
+    padding: 18px;
+    gap: 16px;
+  }
+
+  .faq-question span:first-child {
+    font-size: 0.98rem;
+  }
+
+  .faq-answer {
+    padding: 0 18px 18px;
   }
 }
