@@ -1,6 +1,8 @@
 import { Link } from "react-router-dom";
 import SEO from "../seo/SEO.jsx";
 import CTA from "../components/CTA.jsx";
+import FAQ from "../components/FAQ.jsx";
+import { aboutFaqs } from "../data/faqSections.js";
 import ArtTile from "../components/ArtTile.jsx";
 import { ShieldIcon, TruckIcon, ScaleIcon, AwardIcon, BoltIcon, PhoneIcon } from "../components/Icons.jsx";
 
@@ -142,6 +144,9 @@ export default function About() {
         </div>
       </section>
 
+      {/* NEW: FAQ -----------------------------------------------------------*/}
+      <FAQ title="About Hope Traders — FAQ" questions={aboutFaqs} idPrefix="about-faq" />
+
       <section className="section section--tight">
         <div className="container">
           <CTA
@@ -150,6 +155,8 @@ export default function About() {
           />
         </div>
       </section>
+
+      
     </>
   );
 }

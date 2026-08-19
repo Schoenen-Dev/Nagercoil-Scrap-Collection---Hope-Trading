@@ -5,6 +5,12 @@ import AboutSection from "../components/AboutSection.jsx";
 import ServiceCard from "../components/ServiceCard.jsx";
 import MaterialCard from "../components/MaterialCard.jsx";
 import CTA from "../components/CTA.jsx";
+import QuickTrust from "../components/QuickTrust.jsx";
+import HowItWorks from "../components/HowItWorks.jsx";
+import AreasWeServe from "../components/AreasWeServe.jsx";
+import Reviews from "../components/Reviews.jsx";
+import FAQ from "../components/FAQ.jsx";
+import { generalFaqs } from "../data/faqSections.js";
 import { services } from "../data/services.js";
 import { materialCategories } from "../data/materials.js";
 import { business } from "../config/business.js";
@@ -48,6 +54,9 @@ export default function Home() {
 
       <Hero />
 
+      {/* NEW: Quick Trust ---------------------------------------------------*/}
+      <QuickTrust />
+
       {/* About ------------------------------------------------------------*/}
       <AboutSection />
 
@@ -86,6 +95,9 @@ export default function Home() {
         </div>
       </section>
 
+      {/* NEW: How It Works ---------------------------------------------------*/}
+      <HowItWorks />
+
       {/* Why choose us --------------------------------------------------------*/}
       <section className="section" style={{ background: "var(--surface)" }}>
         <div className="container">
@@ -106,6 +118,15 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      {/* NEW: Areas We Serve --------------------------------------------------*/}
+      <AreasWeServe />
+
+      {/* NEW: Reviews -----------------------------------------------------*/}
+      <Reviews />
+
+      {/* NEW: FAQ -----------------------------------------------------------*/}
+      <FAQ title="Quick Answers" questions={generalFaqs} idPrefix="home-faq" />
 
       {/* CTA --------------------------------------------------------------*/}
       <section className="section section--tight">

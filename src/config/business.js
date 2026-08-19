@@ -22,12 +22,12 @@ export const business = {
   hours: "9:00 AM-6:00 PM, Monday-Saturday",
 
   // Used for canonical URLs, JSON-LD and Open Graph. Replace before launch.
-  siteUrl: "https://www.example.com",
+  siteUrl: "https://nagercoilscrapcollection.in/",
   logo: "/images/hope-traders-logo.webp",
   socialImage: "/images/social-image.webp",
 
   // Leave empty until the client confirms real service areas — do not invent.
-  serviceAreas: [],
+  serviceAreas: ["Nagercoil","Vellamadam", "Kanyakumari","Colachel","Kuzhithurai","Padmanabhapuram","Marthandam","Thuckalay","Karungal","Kulasekaram","Suchindram"],
 
   // Social profile URLs — leave a network's value empty until Hope Traders
   // confirms it has a real, live account there. The Footer only renders an

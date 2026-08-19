@@ -1,6 +1,8 @@
 import { Link } from "react-router-dom";
 import SEO from "../seo/SEO.jsx";
 import ContactForm from "../components/ContactForm.jsx";
+import FAQ from "../components/FAQ.jsx";
+import { contactFaqs } from "../data/faqSections.js";
 import { business } from "../config/business.js";
 import { PhoneIcon, WhatsAppIcon, MailIcon, PinIcon, ClockIcon } from "../components/Icons.jsx";
 import { openWhatsApp, buildGeneralMessage } from "../utils/whatsapp.js";
@@ -112,6 +114,9 @@ export default function Contact() {
           </div>
         </div>
       </section>
+
+      {/* NEW: FAQ -----------------------------------------------------------*/}
+      <FAQ title="Contact — FAQ" questions={contactFaqs} idPrefix="contact-faq" />
     </>
   );
 }

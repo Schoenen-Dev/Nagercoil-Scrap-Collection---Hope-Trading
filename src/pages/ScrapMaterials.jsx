@@ -1,6 +1,8 @@
 import { Link } from "react-router-dom";
 import SEO from "../seo/SEO.jsx";
 import CTA from "../components/CTA.jsx";
+import FAQ from "../components/FAQ.jsx";
+import { materialsFaqs } from "../data/faqSections.js";
 import MaterialCategory from "../components/MaterialCategory.jsx";
 import { materialCategories } from "../data/materials.js";
 
@@ -31,6 +33,9 @@ export default function ScrapMaterials() {
           ))}
         </div>
       </section>
+
+      {/* NEW: FAQ -----------------------------------------------------------*/}
+      <FAQ title="Scrap Materials — FAQ" questions={materialsFaqs} idPrefix="materials-faq" />
 
       <section className="section section--tight">
         <div className="container">

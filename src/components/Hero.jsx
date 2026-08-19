@@ -6,14 +6,14 @@ import { Link } from "react-router-dom";
 
 const slides = [
   {
-    image: "/images/services/Government-Account-Scrap.avif",
+    image: "/images/services/doorstep-scrap-collection.webp",
     alt: "Doorstep scrap collection service in Nagercoil",
     kicker: "DOORSTEP SCRAP COLLECTION",
     title: "Trusted Scrap Dealers in Nagercoil",
     text: "We offer reliable doorstep scrap collection from homes, offices, businesses, and industrial locations across Nagercoil.",
   },
   {
-    image: "/images/services/doorstep-scrap-collection.webp",
+    image: "/images/services/Government-Account-Scrap.avif",
     alt: "Scrap collection and recycling materials at Hope Traders",
     kicker: "HOPE TRADERS",
     title: "All Kinds of Scrap Buying & Selling",

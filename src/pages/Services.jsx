@@ -5,6 +5,8 @@ import { services } from "../data/services.js";
 import { SERVICE_ICONS, CheckIcon } from "../components/Icons.jsx";
 import { openWhatsApp, buildServiceMessage } from "../utils/whatsapp.js";
 import ArtTile from "../components/ArtTile.jsx";
+import FAQ from "../components/FAQ.jsx";
+import { servicesFaqs } from "../data/faqSections.js";
 
 export default function Services() {
   return (
@@ -70,6 +72,9 @@ export default function Services() {
           })}
         </div>
       </section>
+
+     {/* NEW: FAQ -----------------------------------------------------------*/}
+      <FAQ title="Services — FAQ" questions={servicesFaqs} idPrefix="services-faq" /> 
 
       <section className="section section--tight">
         <div className="container">
