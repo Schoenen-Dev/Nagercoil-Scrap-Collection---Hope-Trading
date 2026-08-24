@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://nagercoilscrapcollection.in/sitemap.xml
+Sitemap: https://www.nagercoilscrapcollection.in/sitemap.xml
