@@ -52,7 +52,7 @@ export default function About() {
             </div>
             <div className="service-block__art" style={{ padding: 30 }}>
               <ArtTile
-    image="/images/materials/e-waste.webp"
+    image="/images/materials/office-scrap.webp"
     size="about"
     label="Hope Traders scrap buying and collection"
   />
@@ -101,7 +101,7 @@ export default function About() {
           <div className="grid grid--2" style={{ gap: 48, alignItems: "center" }}>
             <div className="service-block__art" style={{ padding: 30, order: 0 }}>
               <ArtTile
-    image="/images/materials/iron-scrap.webp"
+    image="/images/materials/motor-scrap.webp"
     size="about"
     label="Professional scrap collection service"
   />

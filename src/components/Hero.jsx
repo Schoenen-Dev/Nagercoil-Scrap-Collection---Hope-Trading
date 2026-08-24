@@ -13,14 +13,14 @@ const slides = [
     text: "We offer reliable doorstep scrap collection from homes, offices, businesses, and industrial locations across Nagercoil.",
   },
   {
-    image: "/images/services/Government-Account-Scrap.avif",
+    image: "/images/services/Government-Account-Scrap.webp",
     alt: "Scrap collection and recycling materials at Hope Traders",
     kicker: "HOPE TRADERS",
     title: "All Kinds of Scrap Buying & Selling",
     text: "Reliable scrap buying, selling and collection services for homes, offices, industries and organizations.",
   },
   {
-    image: "/images/services/Industrial-Scrap.avif",
+    image: "/images/services/Industrial-Scrap.webp",
     alt: "Industrial scrap materials collected by Hope Traders",
     kicker: "INDUSTRIAL SCRAP",
     title: "Reliable Scrap Solutions for Industries",

@@ -39,7 +39,7 @@ export const materialCategories = [
     description: "Household and commercial appliance scrap.",
     items: [
       { name: "Fridge", code: "FR-11", image: "/images/materials/fridge-scrap.webp", alt: "Refrigerator scrap materials", description: "Refrigerators and cooling appliance scrap." },
-      { name: "Electrical Appliances", code: "EA-12", image: "/images/materials/tv-scrap.webp", alt: "Electrical appliance scrap", description: "Washing machines, ACs and other appliances." },
+      { name: "Electrical Appliances", code: "EA-12", image: "/images/materials/electrical-appliances-scrap.webp", alt: "Electrical appliance scrap", description: "Washing machines, ACs and other appliances." },
     ],
   },
   {
@@ -50,9 +50,9 @@ export const materialCategories = [
     description: "Paper, cardboard and packaging material scrap.",
     items: [
       { name: "Paper", code: "PPR-13", image: "/images/materials/paper-scrap.webp", alt: "Paper scrap materials", description: "Office paper, newsprint and mixed paper waste." },
-      { name: "Coconut Shell", code: "CCS-15", image: "/images/materials/copper-scrap.webp", alt: "Coconut shell scrap", description: "Coconut shell waste from commercial kitchens." },
+      { name: "Coconut Shell", code: "CCS-15", image: "/images/materials/coconut-shell-scrap.webp", alt: "Coconut shell scrap", description: "Coconut shell waste from commercial kitchens." },
       { name: "Cardboard", code: "CBD-14", image: "/images/materials/cardboard-scrap.webp", alt: "Cardboard recycling materials", description: "Cartons and corrugated cardboard scrap." },
-      { name: "Plastics", code: "PLS-16", image: "/images/materials/steel-scrap.webp", alt: "Plastic scrap materials", description: "Rigid and mixed plastic scrap." },
+      { name: "Plastics", code: "PLS-16", image: "/images/materials/plastic-scrap.webp", alt: "Plastic scrap materials", description: "Rigid and mixed plastic scrap." },
     ],
   },
   {
@@ -62,7 +62,7 @@ export const materialCategories = [
     tone: "emerald",
     description: "End-of-life vehicles and heavy transport scrap.",
     items: [
-      { name: "Scrap Vehicles", code: "VEH-17", image: "/images/materials/scrap-vehicles.webp", alt: "Scrap vehicle recycling", description: "End-of-life cars, vans and commercial vehicles." },
+      { name: "Scrap Vehicles", code: "VEH-17", image: "/images/materials/vehicles-scrap.webp", alt: "Scrap vehicle recycling", description: "End-of-life cars, vans and commercial vehicles." },
       { name: "Railway Vehicles", code: "RLY-18", image: "/images/materials/railway-vehicles.webp", alt: "Railway vehicle scrap materials", description: "Decommissioned railway rolling stock scrap." },
     ],
   },

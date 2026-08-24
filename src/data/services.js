@@ -45,7 +45,7 @@ export const services = [
     slug: "industrial-scrap",
     icon: "factory",
     tone: "graphite",
-    image: "/images/services/Industrial-Scrap.avif",
+    image: "/images/services/Industrial-Scrap.webp",
     alt: "Industrial scrap and machinery",
     title: "Industrial Scrap",
     summary:
@@ -65,7 +65,7 @@ export const services = [
     slug: "government-account-scrap",
     icon: "shield",
     tone: "steel",
-    image: "/images/services/Government-Account-Scrap.avif",
+    image: "/images/services/Government-Account-Scrap.webp",
     alt: "Government account scrap handling",
     title: "Government Account Scrap",
     summary: "Scrap buying and handling services for government account materials.",
