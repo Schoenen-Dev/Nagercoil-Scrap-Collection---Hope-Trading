@@ -22,7 +22,7 @@ export const business = {
   hours: "9:00 AM-6:00 PM, Monday-Saturday",
 
   // Used for canonical URLs, JSON-LD and Open Graph. Replace before launch.
-  siteUrl: "https://www.nagercoilscrapcollection.in/",
+  siteUrl: "https://www.nagercoilscrapcollection.in",
   logo: "/images/hope-traders-logo.webp",
   socialImage: "/images/social-image.webp",
 
